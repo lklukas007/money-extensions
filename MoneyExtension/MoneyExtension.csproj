@@ -4,6 +4,27 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensions_balta.io</PackageId>
+    <Version>1.0.0</Version>
+    <Icon></Icon>
+    <License>MIT</License>
+    <Authors>Lucas de Oliveira Prado</Authors>
+    <Company>Student</Company>
+    <PackageDescription>Another conversor int to decimal (just test project)</PackageDescription>
+    <Description>Another conversor int to decimal (just test project)</Description>
+    <RepositoryUrl>https://github.com/lklukas007/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/lklukas007/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money-extension-converter-int-decimal</PackageTags>
+    <ReleaseNotes>Initial Release</ReleaseNotes>
+    <Title>MoneyExtension</Title>
+    <Summary>Another conversor int to decimal (just test project).</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
